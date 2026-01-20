@@ -1,7 +1,10 @@
 const removeFromArray = function(arr, ...args) {
     for (let arg of args) {
         let index = arr.indexOf(arg);
-        arr.splice(index, 1);
+        while (index > -1) {
+            arr.splice(index, 1);
+            index = arr.indexOf(arg);
+        }
     }
     return arr;
 };
