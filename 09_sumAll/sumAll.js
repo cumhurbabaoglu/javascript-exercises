@@ -1,5 +1,5 @@
 const sumAll = function(a, b) {
-    
+    const array = [];
 
 };
 
