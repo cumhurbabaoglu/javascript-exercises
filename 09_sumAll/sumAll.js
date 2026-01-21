@@ -12,6 +12,8 @@ const sumAll = function(a, b) {
         }
         const result = array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
         return result;
+    } else if (a < 0 || b < 0) {
+        throw new Error("Please make sure that both numbers are positive.");
     }
 };
 
