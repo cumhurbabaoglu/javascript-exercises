@@ -12,7 +12,7 @@ const sumAll = function(a, b) {
         }
         const result = array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
         return result;
-    } else if (a < 0 || b < 0) {
+    } else if (a < 0 || b < 0 || !Number.isInteger(a) || !Number.isInteger(b)) {
         return "ERROR";
     }
 };
