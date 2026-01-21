@@ -6,7 +6,9 @@ const sumAll = function(a, b) {
                 array.push(i);
             }
         } else if (a > b) {
-            
+            for (let i = b; i <= a; i++) {
+                array.push(i);
+            }
         }
     }
 
