@@ -13,7 +13,6 @@ const sumAll = function(a, b) {
         const result = array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
         return result;
     }
-
 };
 
 // Do not edit below this line
