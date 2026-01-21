@@ -1,7 +1,9 @@
 const sumAll = function(a, b) {
     const array = [];
     if (a > 0 && b > 0) {
-        
+        if (a < b) {
+            
+        }
     }
 
 };
