@@ -10,6 +10,7 @@ const sumAll = function(a, b) {
                 array.push(i);
             }
         }
+        const result = array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
     }
 
 };
