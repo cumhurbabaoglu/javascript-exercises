@@ -5,6 +5,8 @@ const sumAll = function(a, b) {
             for (let i = a; i <= b; i++) {
                 array.push(i);
             }
+        } else if (a > b) {
+            
         }
     }
 
