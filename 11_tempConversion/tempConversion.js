@@ -4,7 +4,10 @@ const convertToCelsius = function(measurement) {
   return result;
 };
 
-const convertToFahrenheit = function() {
+const convertToFahrenheit = function(measurement) {
+  const fahrenheit = (measurement * (9/5) + 32);
+  const result = Math.round(fahrenheit * 10) / 10;
+  return result;
 };
 
 // Do not edit below this line
