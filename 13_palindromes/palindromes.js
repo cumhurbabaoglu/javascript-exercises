@@ -1,7 +1,7 @@
 const palindromes = function (string) {
     const array = string.toLowerCase()
                          .split("")
-                        .filter(letter => letter !== "," && letter !== " ");
+                        .filter(letter => letter !== "," && letter !== " " && letter !== "!");
 
     for (let i = 0; i < array.length / 2; i++) {
         if (array[i] !== array.at(-i - 1)) {
