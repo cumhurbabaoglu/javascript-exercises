@@ -1,4 +1,5 @@
 const fibonacci = function(num) {
+  num = +num;
   if (num === 0) {
     return 0;
   }
