@@ -1,4 +1,7 @@
 const fibonacci = function(num) {
+  if (num === 0) {
+    return 0;
+  }
  // create an array and seed it with initial values
  const fibonacciSequence = [1, 1];
     for (let i = 2; num > fibonacciSequence.length; i++) {
